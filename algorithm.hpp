@@ -6,12 +6,15 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/22 16:05:24 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/22 20:48:46 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/02/24 02:02:59 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ALGORITHM_HPP
 # define ALGORITHM_HPP 
+
+template <typename T>
+class vector;
 
 namespace ft
 {

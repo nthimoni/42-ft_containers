@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 16:00:51 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/22 21:18:46 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/02/24 02:15:32 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 
 #if NS == ft
 # include "vector.hpp"
+# include "algorithm.hpp"
 #endif
 #if NS == std
 # include <vector>
@@ -56,6 +57,7 @@ class A
 	{
 		return *data;
 	}
+	A* operator&() {return NULL;}
 	A& operator=(const A& val)
 	{
 		if (a++ > max_a)
@@ -394,6 +396,14 @@ int main()
 		compareVector(a, b);
 		printVector(a);
 		printVector(b);
+		NS::swap(a, b);
+		compareVector(a, b);
+		printVector(a);
+		printVector(b);
+		NS::swap(a, b);
+		compareVector(a, b);
+		printVector(a);
+		printVector(b);
 		b.swap(a);
 		compareVector(a, b);
 		printVector(a);
@@ -410,7 +420,15 @@ int main()
 		compareVector(a, b);
 		printVector(a);
 		printVector(b);
+		NS::swap(a, b);
+		compareVector(a, b);
+		printVector(a);
+		printVector(b);
 		b.swap(a);
+		compareVector(a, b);
+		printVector(a);
+		printVector(b);
+		NS::swap(a, b);
 		compareVector(a, b);
 		printVector(a);
 		printVector(b);

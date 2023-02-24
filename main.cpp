@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/30 17:16:06 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/20 14:43:05 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/02/24 01:04:45 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,6 +78,8 @@ std::ostream& operator<<(std::ostream& out, const A& val)
 int main()
 {
 	std::vector<A> p;
+	A a;
+	std::cout << &a << std::endl;
 	p.push_back(1);
 	p.push_back(2);
 	p.push_back(3);

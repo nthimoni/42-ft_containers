@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 18:18:47 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/22 23:50:53 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/02/24 02:17:15 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,123 +17,114 @@
 # include <iostream>
 # include <exception>
 # include <stdexcept>
-# include "VectorIterator.hpp"
+# include "reverse_iterator.hpp"
 # include "algorithm.hpp"
+# include "vector_base.hpp"
 
 namespace ft
 {
 	template <class T>
-		class vector {
+		class vector : protected vector_base<T> {
 			public:
 				// types:
-				typedef std::allocator<T> allocator_type;
-				typedef typename allocator_type::reference reference;
-				typedef typename allocator_type::const_reference const_reference;
-				typedef T* iterator;
-				typedef const T* const_iterator;
-				typedef typename allocator_type::size_type size_type; // See 23.1
-				typedef typename allocator_type::difference_type difference_type;// See 23.1
-				typedef T value_type;
-				typedef typename allocator_type::pointer pointer;
-				typedef typename allocator_type::const_pointer const_pointer;
-				typedef ft::reverse_iterator<iterator> reverse_iterator;
-				typedef ft::reverse_iterator<const_iterator> const_reverse_iterator;
+				typedef typename vector_base<T>::allocator_type allocator_type;
+				typedef typename vector_base<T>::reference reference;
+				typedef typename vector_base<T>::const_reference const_reference;
+				typedef typename vector_base<T>::iterator iterator;
+				typedef typename vector_base<T>::const_iterator const_iterator;
+				typedef typename vector_base<T>::size_type size_type;
+				typedef typename vector_base<T>::difference_type difference_type;// See 23.1
+				typedef typename vector_base<T>::value_type value_type;// See 23.1
+				typedef typename vector_base<T>::pointer pointer;// See 23.1
+				typedef typename vector_base<T>::const_pointer const_pointer;// See 23.1
+				typedef typename vector_base<T>::reverse_iterator reverse_iterator;// See 23.1
+				typedef typename vector_base<T>::const_reverse_iterator const_reverse_iterator;// See 23.1
+
+				using vector_base<T>::m_size;
+				using vector_base<T>::m_capacity;
+				using vector_base<T>::m_data;
+				using vector_base<T>::m_alloc;
 
 				// 23.2.4.1 construct/copy/destroy:
-				explicit vector() : m_data(NULL), m_size(0), m_capacity(0) {}
+				explicit vector() : vector_base<T>() {}
 
-				explicit vector(size_type n, const T& value = T()) : m_size(n), m_capacity(n)
+				explicit vector(size_type n, const T& value = T()) : vector_base<T>(n)
 				{
-					m_data = m_alloc.allocate(n);
 					std::uninitialized_fill(m_data, m_data + n, value);
+					m_size = n;
 				}
 
 				template <class InputIterator>
-					vector(InputIterator first, InputIterator last)
+					vector(InputIterator first, InputIterator last) : vector_base<T>(std::distance(first, last))
 					{
-						m_capacity = std::distance(first, last);
-						m_size = m_capacity;
-						m_data = m_alloc.allocate(m_capacity);
-						try {
 						std::uninitialized_copy(first, last, m_data);
-						} catch (...) {
-							m_alloc.deallocate(m_data, m_capacity);
-						}
+						m_size = m_capacity;
 					}
-				vector(const vector<T>& x) : m_data(NULL), m_size(x.size()), m_capacity(x.capacity())
+
+				vector(const vector<T>& x) : vector_base<T>(x.size())
 				{
-					m_data = m_alloc.allocate(m_capacity);
-					try {
 						std::uninitialized_copy(x.begin(), x.end(), m_data);
-					} catch(...) {
-						m_alloc.deallocate(m_data, m_capacity);
-					}
+						m_size = m_capacity;
 				}
+
 				~vector()
 				{
-					this->clear();
-					m_alloc.deallocate(m_data, m_capacity);
+					this->destroy_elements(this->begin(), this->end());
 				}
+
 				vector<T>& operator=(const vector<T>& x)
 				{
-					if (*this == x)
+					if (this == &x)
 						return *this;
 					if (m_capacity < x.m_size)
 					{
-						for (unsigned i = 0; i < m_size; i++)
-							m_alloc.destroy(m_data + i);
-						m_alloc.deallocate(m_data, m_capacity);
-						m_capacity = x.size();
-						m_data = m_alloc.allocate(m_capacity);
-						try {
-							std::uninitialized_copy(x.begin(), x.end(), m_data);
-						} catch (...) {
-							m_alloc.deallocate(m_data, m_capacity);
-							m_size = 0;
-							m_capacity = 0;
-							throw;
-						}
+						vector tmp(x);
+						this->swap(tmp);
 					}
 					else
 					{
 						difference_type toCopy = m_size < x.size() ? m_size : x.size();
 						std::copy(x.begin(), x.begin() + toCopy, m_data);
-						for (iterator it = this->begin() + toCopy; it != this->end(); ++it)
-							m_alloc.destroy(it);
+						this->destroy_elements(this->begin() + toCopy, this->end());
 						std::uninitialized_copy(x.begin() + toCopy, x.end(), m_data + toCopy);
+						m_size = x.size();
 					}
-					m_size = x.size();
 					return *this;
 				}
+
 				template <class InputIterator>
 					void assign(InputIterator first, InputIterator last)
 					{
 						difference_type len = std::distance(first, last);
-						if (len > static_cast<difference_type>(m_alloc.max_size()))
-							throw std::length_error("Call to ft::vector::assign with (size > max_size)");
-						this->clear();
 						if (static_cast<difference_type>(m_capacity) < len)
 						{
-							m_alloc.deallocate(m_data, m_capacity);
-							m_data = m_alloc.allocate(len);
-							m_capacity = len;
+							vector<T> tmp(first, last);
+							ft::swap(*this, tmp);
 						}
-						std::uninitialized_copy(first, last, m_data);
-						m_size = len;
+						else
+						{
+							size_type toCopy = static_cast<difference_type>(m_size) > len ? len : m_size;
+							std::copy(first, first + toCopy, m_data);
+							std::uninitialized_copy(first + toCopy, last, m_data + toCopy);
+							this->destroy_elements(m_data + toCopy, this->end());
+							m_size = len;
+						}
 					}
 				void assign(size_type count, const T& u)
 				{
-						if (count > m_alloc.max_size())
-							throw std::length_error("Call to ft::vector::assign with (size > max_size)");
-						this->clear();
 						if (m_capacity < count)
 						{
-							m_alloc.deallocate(m_data, m_capacity);
-							m_data = m_alloc.allocate(count);
-							m_capacity = count;
+							vector<T> tmp(count, u);
+							ft::swap(*this, tmp);
 						}
-						std::uninitialized_fill_n(m_data, count, u);
-						m_size = count;
+						else
+						{
+							size_type toCopy = m_size > count ? count : m_size;
+							std::fill_n(m_data, toCopy, u);
+							std::uninitialized_fill_n(m_data + toCopy, count - toCopy, u);
+							this->destroy_elements(m_data + toCopy, this->end());
+							m_size = count;
+						}
 				}
 				allocator_type get_allocator() const { return m_alloc; };
 
@@ -152,11 +143,10 @@ namespace ft
 				size_type max_size() const { return m_alloc.max_size(); }
 				void resize(size_type sz, T c = T())
 				{
-					if (sz > m_alloc.max_size())
-						throw std::length_error("Call to ft::vector::resize with (size > max_size)");
+					// HEEEERRREEEEE
 					if (sz > m_capacity)
 					{
-						pointer newStorage = m_alloc.allocate(sz);
+						vector_base<T> tmp = m_alloc.allocate(sz);
 						std::uninitialized_copy(this->begin(), this->end(), newStorage);
 						std::uninitialized_fill_n(newStorage + m_size, sz - m_size, c);
 						this->clear();
@@ -229,7 +219,7 @@ namespace ft
 						try {
 						std::uninitialized_copy(this->begin(), this->end(), newStorage);
 						} catch (...) {
-							//m_alloc.deallocate(newStorage, m_capacity * 2);
+							m_alloc.deallocate(newStorage, m_capacity * 2);
 							throw;
 						}
 						for (unsigned i = 0; i < m_size; i++)
@@ -337,30 +327,19 @@ namespace ft
 				}
 				void swap(vector<T>& ent)
 				{
-					pointer tmp_data = ent.m_data;
-					size_type tmp_size = ent.m_capacity;
-					ent.m_data = m_data;
-					ent.m_capacity = m_capacity;
-					m_data = tmp_data;
-					m_capacity = tmp_size;
-					tmp_size = ent.m_size;
-					ent.m_size = m_size;
-					m_size = tmp_size;
-					allocator_type tmp_alloc = ent.m_alloc;
-					ent.m_alloc = m_alloc;
-					m_alloc = tmp_alloc;
+					ft::swap(*this, ent);
 				}
 				void clear()
 				{
-					for (iterator it = this->begin(); it != this->end(); it++)
-						m_alloc.destroy(it);
+					this->destroy_elements(this->begin(), this->end());
 					m_size = 0;
 				}
 			private:
-				pointer m_data;
-				size_type m_size;
-				size_type m_capacity;
-				allocator_type m_alloc;
+				inline void destroy_elements(iterator first, iterator last)
+				{
+					for (;first != last; first++)
+						m_alloc.destroy(first);
+				}
 		};
 
 		template<typename T>
@@ -393,11 +372,11 @@ namespace ft
 		{
 			return !(lhs <= rhs);
 		}
-		template<typename T>
-		void swap(vector<T>& lhs, vector<T>& rhs)
-		{
-			lhs.swap(rhs);
-		}
+		template <typename T>
+			void swap(vector<T>& lhs, vector<T>& rhs)
+			{
+				lhs.swap(rhs);
+			}
 }
 
 #endif 
