@@ -1,0 +1,925 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/mnt/nfs/homes/nthimoni/Documents/42-ft_containers/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+A	main.cpp	/^	A()$/;"	f	class:A	file:
+A	main.cpp	/^	A(const A& val)$/;"	f	class:A	file:
+A	main.cpp	/^	A(int r)$/;"	f	class:A	file:
+A	main.cpp	/^class A$/;"	c	file:
+A	realtest.cpp	/^	A()$/;"	f	class:A	file:
+A	realtest.cpp	/^	A(const A& val)$/;"	f	class:A	file:
+A	realtest.cpp	/^	A(int r)$/;"	f	class:A	file:
+A	realtest.cpp	/^class A$/;"	c	file:
+A	test.cpp	/^	A()$/;"	f	class:A	file:
+A	test.cpp	/^	A(const A& val)$/;"	f	class:A	file:
+A	test.cpp	/^	A(int r)$/;"	f	class:A	file:
+A	test.cpp	/^class A$/;"	c	file:
+A	test_exception.cpp	/^	A()$/;"	f	class:A	file:
+A	test_exception.cpp	/^	A(const A& val)$/;"	f	class:A	file:
+A	test_exception.cpp	/^	A(int r)$/;"	f	class:A	file:
+A	test_exception.cpp	/^class A$/;"	c	file:
+ALGORITHM_HPP	algorithm.hpp	/^# define ALGORITHM_HPP /;"	d
+BASE_HPP	containers_test/srcs/base.hpp	/^# define BASE_HPP$/;"	d
+Contributors	containers_test/README.md	/^## Contributors$/;"	s	chapter:containers_test
+EOF	containers_test/fct.sh	/^	regex=$(cat <<- EOF$/;"	h
+NAMESPACE	main.cpp	/^#define NAMESPACE /;"	d	file:
+NAMESPACE	try.cpp	/^#define NAMESPACE /;"	d	file:
+NS	realtest.cpp	/^# define NS /;"	d	file:
+NS	test_exception.cpp	/^# define NS /;"	d	file:
+T1	containers_test/srcs/map/bounds.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/comp.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/copy_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/empty.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/erase2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/find_count.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/insert.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/insert2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/ite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/ite_n0.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/ite_n1.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/more.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/op_sqbr.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/relational_ope.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/rev_ite_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/rite.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/rite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/swap.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/tricky_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/map/tricky_erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/bounds.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/comp.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/copy_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/empty.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/erase2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/find_count.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/insert.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/insert2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/ite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/ite_n0.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/ite_n1.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/more.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/op_sqbr.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/relational_ope.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/rev_ite_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/rite.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/rite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/swap.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/tricky_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multimap/tricky_erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/bounds.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/comp.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/copy_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/empty.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/erase2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/find_count.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/insert.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/insert2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/ite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/ite_n0a.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/ite_n0b.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/ite_n1.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/more.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/op_sqbr.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/relational_ope.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/rev_ite_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/rite.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/rite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/swap.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/tricky_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/multiset/tricky_erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/bounds.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/comp.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/copy_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/empty.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/erase.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/erase2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/find_count.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/insert.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/insert2.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/ite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/ite_n0a.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/ite_n0b.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/ite_n1.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/more.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/op_sqbr.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/relational_ope.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/rev_ite_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/rite.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/rite_arrow.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/swap.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/tricky_construct.cpp	/^#define T1 /;"	d	file:
+T1	containers_test/srcs/set/tricky_erase.cpp	/^#define T1 /;"	d	file:
+T2	containers_test/srcs/map/bounds.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/comp.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/copy_construct.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/empty.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/erase.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/erase2.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/find_count.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/insert.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/insert2.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/ite_arrow.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/ite_n0.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/ite_n1.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/more.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/op_sqbr.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/relational_ope.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/rev_ite_construct.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/rite.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/rite_arrow.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/swap.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/tricky_construct.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/map/tricky_erase.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/bounds.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/comp.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/copy_construct.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/empty.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/erase.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/erase2.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/find_count.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/insert.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/insert2.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/ite_arrow.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/ite_n0.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/ite_n1.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/more.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/op_sqbr.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/relational_ope.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/rev_ite_construct.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/rite.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/rite_arrow.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/swap.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/tricky_construct.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multimap/tricky_erase.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/multiset/op_sqbr.cpp	/^#define T2 /;"	d	file:
+T2	containers_test/srcs/set/op_sqbr.cpp	/^#define T2 /;"	d	file:
+T3	containers_test/srcs/map/bounds.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::value_type	file:
+T3	containers_test/srcs/map/copy_construct.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/empty.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/erase.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/erase2.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/insert.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::value_type	file:
+T3	containers_test/srcs/map/insert2.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::value_type	file:
+T3	containers_test/srcs/map/ite_arrow.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/relational_ope.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/rite.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/rite_arrow.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/swap.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/map/tricky_construct.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::value_type	file:
+T3	containers_test/srcs/map/tricky_erase.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::value_type	file:
+T3	containers_test/srcs/multimap/bounds.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::value_type	file:
+T3	containers_test/srcs/multimap/copy_construct.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/empty.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/erase.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/erase2.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/insert.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::value_type	file:
+T3	containers_test/srcs/multimap/insert2.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::value_type	file:
+T3	containers_test/srcs/multimap/ite_arrow.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/relational_ope.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/rite.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/rite_arrow.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/swap.cpp	/^typedef _pair<const T1, T2> T3;$/;"	t	typeref:typename:_pair<const T1,T2>	file:
+T3	containers_test/srcs/multimap/tricky_construct.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::value_type	file:
+T3	containers_test/srcs/multimap/tricky_erase.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::value_type T3;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::value_type	file:
+TESTED_NAMESPACE	containers_test/srcs/base.hpp	/^#  define TESTED_NAMESPACE /;"	d
+TESTED_TYPE	containers_test/srcs/deque/assign.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/at.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/at_const.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/bidirect_it.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/copy_construct.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/erase.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/insert.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/insert2.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/ite.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/ite_arrow.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/ite_eq_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/ite_n0.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/ite_n00.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/ite_n1.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/push_pop_back.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/push_pop_front.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/relational_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/rev_ite_construct.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/rite.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/rite2.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/rite_arrow.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/rite_eq_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/size.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/deque/swap.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/assign.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/copy_construct.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/erase.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/front_back.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/huge_sort.cpp	/^typedef foo<UNDER_TYPE> TESTED_TYPE;$/;"	t	typeref:typename:foo<UNDER_TYPE>	file:
+TESTED_TYPE	containers_test/srcs/list/insert.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/insert2.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/ite_arrow.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/ite_n0.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/ite_n1.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/merge.cpp	/^typedef foo<UNDER_TYPE> TESTED_TYPE;$/;"	t	typeref:typename:foo<UNDER_TYPE>	file:
+TESTED_TYPE	containers_test/srcs/list/push_pop.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/relational_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/remove.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/remove_if.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/rev_ite_construct.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/reverse.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/rite.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/rite_arrow.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/size.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/sort.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/splice.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/swap.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/list/unique.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/queue/back.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/queue/default.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/queue/default_copy.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/queue/list_copy.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/queue/relational_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/queue/relational_ope_list.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/stack/default.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/stack/default_copy.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/stack/list_copy.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/stack/relational_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/stack/relational_ope_list.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/assign.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/at.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/at_const.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/bidirect_it.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/copy_construct.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/erase.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/insert.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/insert2.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/ite.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/ite_arrow.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/ite_eq_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/ite_n0.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/ite_n00.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/ite_n1.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/push_pop.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/relational_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/rev_ite_construct.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/rite.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/rite2.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/rite_arrow.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/rite_eq_ope.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/size.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	containers_test/srcs/vector/swap.cpp	/^#define TESTED_TYPE /;"	d	file:
+TESTED_TYPE	realtest.cpp	/^#define TESTED_TYPE /;"	d	file:
+T_SIZE_TYPE	containers_test/srcs/vector/common.hpp	/^#define T_SIZE_TYPE /;"	d
+Tested features	containers_test/README.md	/^## Tested features$/;"	s	chapter:containers_test
+UNDER_TYPE	containers_test/srcs/list/huge_sort.cpp	/^typedef int UNDER_TYPE;$/;"	t	typeref:typename:int	file:
+UNDER_TYPE	containers_test/srcs/list/merge.cpp	/^typedef double UNDER_TYPE;$/;"	t	typeref:typename:double	file:
+Usage	containers_test/README.md	/^## Usage$/;"	s	chapter:containers_test
+VECTORE_BASE_HPP	vector_base.hpp	/^# define VECTORE_BASE_HPP /;"	d
+VECTORITERATOR_HPP	reverse_iterator.hpp	/^# define VECTORITERATOR_HPP$/;"	d
+VECTOR_HPP	vector.hpp	/^# define VECTOR_HPP$/;"	d
+VectorIterator	reverse_iterator.hpp	/^				VectorIterator() : m_current(NULL) {}$/;"	f	class:ft::VectorIterator
+VectorIterator	reverse_iterator.hpp	/^				VectorIterator(const VectorIterator& ent) : m_current(ent.m_current) {}$/;"	f	class:ft::VectorIterator
+VectorIterator	reverse_iterator.hpp	/^				VectorIterator(pointer elem) : m_current(elem) {}$/;"	f	class:ft::VectorIterator
+VectorIterator	reverse_iterator.hpp	/^		class VectorIterator$/;"	c	namespace:ft
+Warning	containers_test/README.md	/^## Warning$/;"	s	chapter:containers_test
+_map	containers_test/srcs/map/comp.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2> _map;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>	file:
+_multimap	containers_test/srcs/multimap/comp.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2> _multimap;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>	file:
+_multiset	containers_test/srcs/multiset/comp.cpp	/^typedef TESTED_NAMESPACE::multiset<T1> _multiset;$/;"	t	typeref:typename:TESTED_NAMESPACE::multiset<T1>	file:
+_pair	containers_test/srcs/map/common.hpp	/^#define _pair /;"	d
+_pair	containers_test/srcs/multimap/common.hpp	/^#define _pair /;"	d
+_pair	containers_test/srcs/multiset/common.hpp	/^#define _pair /;"	d
+_pair	containers_test/srcs/set/common.hpp	/^#define _pair /;"	d
+_set	containers_test/srcs/set/comp.cpp	/^typedef TESTED_NAMESPACE::set<T1> _set;$/;"	t	typeref:typename:TESTED_NAMESPACE::set<T1>	file:
+_verbose	containers_test/srcs/base.hpp	/^		bool		_verbose;$/;"	m	class:foo	typeref:typename:bool
+a	main.cpp	/^	static int a;$/;"	m	class:A	typeref:typename:int	file:
+a	main.cpp	/^int A::a = 0;$/;"	m	class:A	typeref:typename:int
+a	realtest.cpp	/^	static int a;$/;"	m	class:A	typeref:typename:int	file:
+a	realtest.cpp	/^int A::a = 0;$/;"	m	class:A	typeref:typename:int
+a	test.cpp	/^	static int a;$/;"	m	class:A	typeref:typename:int	file:
+a	test.cpp	/^int A::a = 0;$/;"	m	class:A	typeref:typename:int
+a	test_exception.cpp	/^	static int a;$/;"	m	class:A	typeref:typename:int	file:
+a	test_exception.cpp	/^int A::a = 0;$/;"	m	class:A	typeref:typename:int
+allocator_type	vector.hpp	/^				typedef typename vector_base<T>::allocator_type allocator_type;$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::allocator_type
+allocator_type	vector_base.hpp	/^			typedef std::allocator<T> allocator_type;$/;"	t	class:ft::vector_base	typeref:typename:std::allocator<T>
+assign	vector.hpp	/^					void assign(InputIterator first, InputIterator last)$/;"	f	class:ft::vector	typeref:typename:void
+assign	vector.hpp	/^				void assign(size_type count, const T& u)$/;"	f	class:ft::vector	typeref:typename:void
+at	vector.hpp	/^				const_reference at(size_type n) const$/;"	f	class:ft::vector	typeref:typename:const_reference
+at	vector.hpp	/^				reference at(size_type n)$/;"	f	class:ft::vector	typeref:typename:reference
+back	vector.hpp	/^				const_reference back() const { return m_data[m_size - 1]; }$/;"	f	class:ft::vector	typeref:typename:const_reference
+back	vector.hpp	/^				reference back() { return m_data[m_size - 1]; }$/;"	f	class:ft::vector	typeref:typename:reference
+base	reverse_iterator.hpp	/^				iterator_type base() const { return m_base; };$/;"	f	class:ft::reverse_iterator	typeref:typename:iterator_type
+begin	vector.hpp	/^				const_iterator begin() const { return m_data; }$/;"	f	class:ft::vector	typeref:typename:const_iterator
+begin	vector.hpp	/^				iterator begin() { return m_data; }$/;"	f	class:ft::vector	typeref:typename:iterator
+capacity	vector.hpp	/^				size_type capacity() const { return m_capacity; }$/;"	f	class:ft::vector	typeref:typename:size_type
+case_insensitive	containers_test/srcs/list/sort.cpp	/^struct case_insensitive {$/;"	s	file:
+checkErase	containers_test/srcs/deque/erase.cpp	/^void	checkErase(TESTED_NAMESPACE::deque<TESTED_TYPE> const &deq,$/;"	f	typeref:typename:void
+checkErase	containers_test/srcs/list/erase.cpp	/^void	checkErase(TESTED_NAMESPACE::list<TESTED_TYPE> const &lst,$/;"	f	typeref:typename:void
+checkErase	containers_test/srcs/vector/erase.cpp	/^void	checkErase(TESTED_NAMESPACE::vector<TESTED_TYPE> const &vct,$/;"	f	typeref:typename:void
+clean_trailing_files	containers_test/fct.sh	/^	clean_trailing_files () {$/;"	f
+clear	vector.hpp	/^				void clear()$/;"	f	class:ft::vector	typeref:typename:void
+cmp	containers_test/srcs/deque/relational_ope.cpp	/^void	cmp(const TESTED_NAMESPACE::deque<T, Alloc> &lhs, const TESTED_NAMESPACE::deque<T, Alloc> &/;"	f	typeref:typename:void
+cmp	containers_test/srcs/list/relational_ope.cpp	/^void	cmp(const TESTED_NAMESPACE::list<T, Alloc> &lhs, const TESTED_NAMESPACE::list<T, Alloc> &rh/;"	f	typeref:typename:void
+cmp	containers_test/srcs/map/relational_ope.cpp	/^void	cmp(const MAP &lhs, const MAP &rhs)$/;"	f	typeref:typename:void
+cmp	containers_test/srcs/multimap/relational_ope.cpp	/^void	cmp(const MAP &lhs, const MAP &rhs)$/;"	f	typeref:typename:void
+cmp	containers_test/srcs/queue/relational_ope.cpp	/^void	cmp(const T_STACK &lhs, const T_STACK &rhs)$/;"	f	typeref:typename:void
+cmp	containers_test/srcs/queue/relational_ope_list.cpp	/^void	cmp(const T_STACK &lhs, const T_STACK &rhs)$/;"	f	typeref:typename:void
+cmp	containers_test/srcs/stack/relational_ope.cpp	/^void	cmp(const T_STACK &lhs, const T_STACK &rhs)$/;"	f	typeref:typename:void
+cmp	containers_test/srcs/stack/relational_ope_list.cpp	/^void	cmp(const T_STACK &lhs, const T_STACK &rhs)$/;"	f	typeref:typename:void
+cmp	containers_test/srcs/vector/relational_ope.cpp	/^void	cmp(const TESTED_NAMESPACE::vector<T, Alloc> &lhs, const TESTED_NAMESPACE::vector<T, Alloc>/;"	f	typeref:typename:void
+cmp_one	containers_test/fct.sh	/^cmp_one () {$/;"	f
+compareVector	realtest.cpp	/^void compareVector(const NS::vector<T>& a, const NS::vector<T>& b)$/;"	f	typeref:typename:void
+compareVector	test_exception.cpp	/^void compareVector(const NS::vector<T>& a, const NS::vector<T>& b)$/;"	f	typeref:typename:void
+compare_output	containers_test/fct.sh	/^compare_output () {$/;"	f
+compile	containers_test/fct.sh	/^compile () {$/;"	f
+const_it	containers_test/srcs/map/comp.cpp	/^typedef _map::const_iterator const_it;$/;"	t	typeref:typename:_map::const_iterator	file:
+const_it	containers_test/srcs/multimap/comp.cpp	/^typedef _multimap::const_iterator const_it;$/;"	t	typeref:typename:_multimap::const_iterator	file:
+const_it	containers_test/srcs/multiset/comp.cpp	/^typedef _multiset::const_iterator const_it;$/;"	t	typeref:typename:_multiset::const_iterator	file:
+const_it	containers_test/srcs/set/comp.cpp	/^typedef _set::const_iterator const_it;$/;"	t	typeref:typename:_set::const_iterator	file:
+const_iterator	vector.hpp	/^				typedef typename vector_base<T>::const_iterator const_iterator;$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::const_iterator
+const_iterator	vector_base.hpp	/^			typedef const T* const_iterator;$/;"	t	class:ft::vector_base	typeref:typename:const T *
+const_pointer	vector.hpp	/^				typedef typename vector_base<T>::const_pointer const_pointer;\/\/ See 23.1$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::const_pointer
+const_pointer	vector_base.hpp	/^			typedef typename allocator_type::const_pointer const_pointer;$/;"	t	class:ft::vector_base	typeref:typename:allocator_type::const_pointer
+const_reference	vector.hpp	/^				typedef typename vector_base<T>::const_reference const_reference;$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::const_reference
+const_reference	vector_base.hpp	/^			typedef typename allocator_type::const_reference const_reference;$/;"	t	class:ft::vector_base	typeref:typename:allocator_type::const_reference
+const_reverse_iterator	vector.hpp	/^				typedef typename vector_base<T>::const_reverse_iterator const_reverse_iterator;\/\/ See 23.1$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::const_reverse_iterator
+const_reverse_iterator	vector_base.hpp	/^			typedef ft::reverse_iterator<const_iterator> const_reverse_iterator;$/;"	t	class:ft::vector_base	typeref:typename:ft::reverse_iterator<const_iterator>
+container_type	containers_test/srcs/queue/back.cpp	/^typedef t_queue_<TESTED_TYPE>::container_type container_type;$/;"	t	typeref:typename:t_queue_<TESTED_TYPE>::container_type	file:
+container_type	containers_test/srcs/queue/default.cpp	/^typedef t_queue_<TESTED_TYPE>::container_type container_type;$/;"	t	typeref:typename:t_queue_<TESTED_TYPE>::container_type	file:
+container_type	containers_test/srcs/queue/default_copy.cpp	/^typedef t_queue_::container_type container_type;$/;"	t	typeref:typename:t_queue_::container_type	file:
+container_type	containers_test/srcs/queue/list_copy.cpp	/^typedef std::list<TESTED_TYPE> container_type;$/;"	t	typeref:typename:std::list<TESTED_TYPE>	file:
+container_type	containers_test/srcs/queue/relational_ope.cpp	/^typedef t_queue_::container_type container_type;$/;"	t	typeref:typename:t_queue_::container_type	file:
+container_type	containers_test/srcs/queue/relational_ope_list.cpp	/^typedef std::list<TESTED_TYPE> container_type;$/;"	t	typeref:typename:std::list<TESTED_TYPE>	file:
+container_type	containers_test/srcs/stack/default.cpp	/^typedef t_stack_<TESTED_TYPE>::container_type container_type;$/;"	t	typeref:typename:t_stack_<TESTED_TYPE>::container_type	file:
+container_type	containers_test/srcs/stack/default_copy.cpp	/^typedef t_stack_::container_type container_type;$/;"	t	typeref:typename:t_stack_::container_type	file:
+container_type	containers_test/srcs/stack/list_copy.cpp	/^typedef std::list<TESTED_TYPE> container_type;$/;"	t	typeref:typename:std::list<TESTED_TYPE>	file:
+container_type	containers_test/srcs/stack/relational_ope.cpp	/^typedef t_stack_::container_type container_type;$/;"	t	typeref:typename:t_stack_::container_type	file:
+container_type	containers_test/srcs/stack/relational_ope_list.cpp	/^typedef std::list<TESTED_TYPE> container_type;$/;"	t	typeref:typename:std::list<TESTED_TYPE>	file:
+containers_test	containers_test/README.md	/^# containers_test$/;"	c
+cst	containers_test/srcs/multiset/relational_ope.cpp	/^void	cst(const SET &lhs, const SET &rhs)$/;"	f	typeref:typename:void
+cst	containers_test/srcs/set/relational_ope.cpp	/^void	cst(const SET &lhs, const SET &rhs)$/;"	f	typeref:typename:void
+data	main.cpp	/^	int* data;$/;"	m	class:A	typeref:typename:int *	file:
+data	realtest.cpp	/^	int* data;$/;"	m	class:A	typeref:typename:int *	file:
+data	test.cpp	/^	int* data;$/;"	m	class:A	typeref:typename:int *	file:
+data	test_exception.cpp	/^	int* data;$/;"	m	class:A	typeref:typename:int *	file:
+dec	containers_test/srcs/base.hpp	/^T	dec(T it, int n)$/;"	f	typeref:typename:T
+destroy_elements	vector.hpp	/^				inline void destroy_elements(iterator first, iterator last)$/;"	f	class:ft::vector	typeref:typename:void
+difference_type	reverse_iterator.hpp	/^				typedef std::ptrdiff_t difference_type;$/;"	t	class:ft::VectorIterator	typeref:typename:std::ptrdiff_t
+difference_type	reverse_iterator.hpp	/^				typedef typename iterator_traits<T>::difference_type difference_type;$/;"	t	class:ft::reverse_iterator	typeref:typename:iterator_traits<T>::difference_type
+difference_type	reverse_iterator.hpp	/^			typedef std::ptrdiff_t difference_type;$/;"	t	struct:ft::iterator_traits	typeref:typename:std::ptrdiff_t
+difference_type	reverse_iterator.hpp	/^			typedef typename Iter::difference_type difference_type;$/;"	t	struct:ft::iterator_traits	typeref:typename:Iter::difference_type
+difference_type	vector.hpp	/^				typedef typename vector_base<T>::difference_type difference_type;\/\/ See 23.1$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::difference_type
+difference_type	vector_base.hpp	/^			typedef typename allocator_type::difference_type difference_type;\/\/ See 23.1$/;"	t	class:ft::vector_base	typeref:typename:allocator_type::difference_type
+do_test	containers_test/fct.sh	/^do_test () {$/;"	f
+empty	vector.hpp	/^				bool empty() const { return m_size == 0; }$/;"	f	class:ft::vector	typeref:typename:bool
+end	vector.hpp	/^				const_iterator end() const { return m_data + m_size; }$/;"	f	class:ft::vector	typeref:typename:const_iterator
+end	vector.hpp	/^				iterator end() { return m_data + m_size; }$/;"	f	class:ft::vector	typeref:typename:iterator
+equal	algorithm.hpp	/^	bool equal(InputIt1 first1, InputIt1 last1, InputIt2 first2)$/;"	f	namespace:ft	typeref:typename:bool
+erase	vector.hpp	/^				iterator erase(iterator first, iterator last)$/;"	f	class:ft::vector	typeref:typename:iterator
+erase	vector.hpp	/^				iterator erase(iterator position)$/;"	f	class:ft::vector	typeref:typename:iterator
+foo	containers_test/srcs/base.hpp	/^		foo(foo const &src, const bool verbose = false) : value(src.value), _verbose(verbose) { };$/;"	f	class:foo
+foo	containers_test/srcs/base.hpp	/^		foo(value_type src, const bool verbose = false) : value(src), _verbose(verbose) { };$/;"	f	class:foo
+foo	containers_test/srcs/base.hpp	/^		foo(void) : value(), _verbose(false) { };$/;"	f	class:foo
+foo	containers_test/srcs/base.hpp	/^class foo {$/;"	c
+front	vector.hpp	/^				const_reference front() const { return m_data[0]; }$/;"	f	class:ft::vector	typeref:typename:const_reference
+front	vector.hpp	/^				reference front() { return m_data[0]; }$/;"	f	class:ft::vector	typeref:typename:reference
+ft	algorithm.hpp	/^namespace ft$/;"	n
+ft	reverse_iterator.hpp	/^namespace ft$/;"	n
+ft	vector.hpp	/^namespace ft$/;"	n
+ft	vector_base.hpp	/^namespace ft$/;"	n
+ft_bound	containers_test/srcs/map/bounds.cpp	/^void	ft_bound(MAP &mp, const T1 &param)$/;"	f	typeref:typename:void
+ft_bound	containers_test/srcs/multimap/bounds.cpp	/^void	ft_bound(MAP &mp, const T1 &param)$/;"	f	typeref:typename:void
+ft_bound	containers_test/srcs/multiset/bounds.cpp	/^void	ft_bound(SET &st, const T1 &param)$/;"	f	typeref:typename:void
+ft_bound	containers_test/srcs/set/bounds.cpp	/^void	ft_bound(SET &st, const T1 &param)$/;"	f	typeref:typename:void
+ft_comp	containers_test/srcs/map/comp.cpp	/^void	ft_comp(const _map &mp, const const_it &it1, const const_it &it2)$/;"	f	typeref:typename:void
+ft_comp	containers_test/srcs/multimap/comp.cpp	/^void	ft_comp(const _multimap &mp, const const_it &it1, const const_it &it2)$/;"	f	typeref:typename:void
+ft_comp	containers_test/srcs/multiset/comp.cpp	/^void	ft_comp(const _multiset &st, const const_it &it1, const const_it &it2)$/;"	f	typeref:typename:void
+ft_comp	containers_test/srcs/set/comp.cpp	/^void	ft_comp(const _set &st, const const_it &it1, const const_it &it2)$/;"	f	typeref:typename:void
+ft_const_bound	containers_test/srcs/map/bounds.cpp	/^void	ft_const_bound(const MAP &mp, const T1 &param)$/;"	f	typeref:typename:void
+ft_const_bound	containers_test/srcs/multimap/bounds.cpp	/^void	ft_const_bound(const MAP &mp, const T1 &param)$/;"	f	typeref:typename:void
+ft_const_bound	containers_test/srcs/multiset/bounds.cpp	/^void	ft_const_bound(const SET &st, const T1 &param)$/;"	f	typeref:typename:void
+ft_const_bound	containers_test/srcs/set/bounds.cpp	/^void	ft_const_bound(const SET &st, const T1 &param)$/;"	f	typeref:typename:void
+ft_const_iterator	containers_test/srcs/map/bounds.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::const_iterator ft_const_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::const_iterator	file:
+ft_const_iterator	containers_test/srcs/multimap/bounds.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::const_iterator ft_const_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::const_iterator	file:
+ft_const_iterator	containers_test/srcs/multiset/bounds.cpp	/^typedef TESTED_NAMESPACE::multiset<T1>::const_iterator ft_const_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::multiset<T1>::const_iterator	file:
+ft_const_iterator	containers_test/srcs/set/bounds.cpp	/^typedef TESTED_NAMESPACE::set<T1>::const_iterator ft_const_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::set<T1>::const_iterator	file:
+ft_count	containers_test/srcs/map/find_count.cpp	/^void	ft_count(T1 const &k)$/;"	f	typeref:typename:void
+ft_count	containers_test/srcs/multimap/find_count.cpp	/^void	ft_count(T1 const &k)$/;"	f	typeref:typename:void
+ft_count	containers_test/srcs/multiset/find_count.cpp	/^void	ft_count(T1 const &k)$/;"	f	typeref:typename:void
+ft_count	containers_test/srcs/set/find_count.cpp	/^void	ft_count(T1 const &k)$/;"	f	typeref:typename:void
+ft_eq_ope	containers_test/srcs/deque/ite_eq_ope.cpp	/^void ft_eq_ope(const Ite_1 &first, const Ite_2 &second, const bool redo = 1)$/;"	f	typeref:typename:void
+ft_eq_ope	containers_test/srcs/deque/rite_eq_ope.cpp	/^void ft_eq_ope(const Ite_1 &first, const Ite_2 &second, const bool redo = 1)$/;"	f	typeref:typename:void
+ft_eq_ope	containers_test/srcs/vector/ite_eq_ope.cpp	/^void ft_eq_ope(const Ite_1 &first, const Ite_2 &second, const bool redo = 1)$/;"	f	typeref:typename:void
+ft_eq_ope	containers_test/srcs/vector/rite_eq_ope.cpp	/^void ft_eq_ope(const Ite_1 &first, const Ite_2 &second, const bool redo = 1)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/map/erase.cpp	/^void	ft_erase(MAP &mp, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/map/erase.cpp	/^void	ft_erase(MAP &mp, U param, V param2)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/map/erase2.cpp	/^void	ft_erase(MAP &mp, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/map/tricky_erase.cpp	/^void	ft_erase(MAP &mp, const T1 param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multimap/erase.cpp	/^void	ft_erase(MAP &mp, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multimap/erase.cpp	/^void	ft_erase(MAP &mp, U param, V param2)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multimap/erase2.cpp	/^void	ft_erase(MAP &mp, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multimap/tricky_erase.cpp	/^void	ft_erase(MAP &mp, const T1 param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multiset/erase.cpp	/^void	ft_erase(SET &st, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multiset/erase.cpp	/^void	ft_erase(SET &st, U param, V param2)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multiset/erase2.cpp	/^void	ft_erase(SET &st, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/multiset/tricky_erase.cpp	/^void	ft_erase(SET &st, const T1 param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/set/erase.cpp	/^void	ft_erase(SET &st, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/set/erase.cpp	/^void	ft_erase(SET &st, U param, V param2)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/set/erase2.cpp	/^void	ft_erase(SET &st, U param)$/;"	f	typeref:typename:void
+ft_erase	containers_test/srcs/set/tricky_erase.cpp	/^void	ft_erase(SET &st, const T1 param)$/;"	f	typeref:typename:void
+ft_even	containers_test/srcs/list/remove_if.cpp	/^bool	ft_even(TESTED_TYPE val)$/;"	f	typeref:typename:bool
+ft_false	containers_test/srcs/list/remove_if.cpp	/^bool	ft_false(TESTED_TYPE val)$/;"	f	typeref:typename:bool
+ft_false	containers_test/srcs/list/unique.cpp	/^bool	ft_false(TESTED_TYPE first, TESTED_TYPE second)$/;"	f	typeref:typename:bool
+ft_find	containers_test/srcs/map/find_count.cpp	/^void	ft_find(T1 const &k)$/;"	f	typeref:typename:void
+ft_find	containers_test/srcs/multimap/find_count.cpp	/^void	ft_find(T1 const &k)$/;"	f	typeref:typename:void
+ft_find	containers_test/srcs/multiset/find_count.cpp	/^void	ft_find(T1 const &k)$/;"	f	typeref:typename:void
+ft_find	containers_test/srcs/set/find_count.cpp	/^void	ft_find(T1 const &k)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/map/insert.cpp	/^void	ft_insert(MAP &mp, U param)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/map/insert.cpp	/^void	ft_insert(MAP &mp, U param, V param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/map/insert2.cpp	/^void	ft_insert(MAP &mp, U param, U param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/multimap/insert.cpp	/^void	ft_insert(MAP &mp, U param)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/multimap/insert.cpp	/^void	ft_insert(MAP &mp, U param, V param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/multimap/insert2.cpp	/^void	ft_insert(MAP &mp, U param, U param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/multiset/insert.cpp	/^void	ft_insert(SET &st, U param)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/multiset/insert.cpp	/^void	ft_insert(SET &st, U param, V param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/multiset/insert2.cpp	/^void	ft_insert(SET &st, U param, U param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/set/insert.cpp	/^void	ft_insert(SET &st, U param)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/set/insert.cpp	/^void	ft_insert(SET &st, U param, V param2)$/;"	f	typeref:typename:void
+ft_insert	containers_test/srcs/set/insert2.cpp	/^void	ft_insert(SET &st, U param, U param2)$/;"	f	typeref:typename:void
+ft_iterator	containers_test/srcs/map/bounds.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::iterator ft_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::iterator	file:
+ft_iterator	containers_test/srcs/multimap/bounds.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::iterator ft_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::iterator	file:
+ft_iterator	containers_test/srcs/multiset/bounds.cpp	/^typedef TESTED_NAMESPACE::multiset<T1>::iterator ft_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::multiset<T1>::iterator	file:
+ft_iterator	containers_test/srcs/set/bounds.cpp	/^typedef TESTED_NAMESPACE::set<T1>::iterator ft_iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::set<T1>::iterator	file:
+ft_merge	containers_test/srcs/list/merge.cpp	/^void	ft_merge(TESTED_NAMESPACE::list<TESTED_TYPE> &lst,$/;"	f	typeref:typename:void
+ft_more	containers_test/srcs/map/more.cpp	/^struct ft_more {$/;"	s	file:
+ft_more	containers_test/srcs/multimap/more.cpp	/^struct ft_more {$/;"	s	file:
+ft_more	containers_test/srcs/multiset/more.cpp	/^struct ft_more {$/;"	s	file:
+ft_more	containers_test/srcs/set/more.cpp	/^struct ft_more {$/;"	s	file:
+ft_mp	containers_test/srcs/map/more.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2, ft_more> ft_mp;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2,ft_more>	file:
+ft_mp	containers_test/srcs/multimap/more.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2, ft_more> ft_mp;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2,ft_more>	file:
+ft_mp_it	containers_test/srcs/map/more.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2, ft_more>::iterator ft_mp_it;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2,ft_more>::iterator	file:
+ft_mp_it	containers_test/srcs/multimap/more.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2, ft_more>::iterator ft_mp_it;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2,ft_more>::iterator	file:
+ft_odd	containers_test/srcs/list/remove_if.cpp	/^bool	ft_odd(TESTED_TYPE val)$/;"	f	typeref:typename:bool
+ft_push_back	containers_test/srcs/list/merge.cpp	/^void	ft_push_back(TESTED_NAMESPACE::list<TESTED_TYPE> &lst, const UNDER_TYPE val)$/;"	f	typeref:typename:void
+ft_remove	containers_test/srcs/list/remove.cpp	/^void	ft_remove(TESTED_NAMESPACE::list<TESTED_TYPE> &lst, TESTED_TYPE val)$/;"	f	typeref:typename:void
+ft_remove	containers_test/srcs/list/remove_if.cpp	/^void	ft_remove(TESTED_NAMESPACE::list<TESTED_TYPE> &lst, Pred pred)$/;"	f	typeref:typename:void
+ft_sort	containers_test/srcs/list/sort.cpp	/^void	ft_sort(TESTED_NAMESPACE::list<TESTED_TYPE> &lst)$/;"	f	typeref:typename:void
+ft_sort	containers_test/srcs/list/sort.cpp	/^void	ft_sort(TESTED_NAMESPACE::list<TESTED_TYPE> &lst, Pred pred)$/;"	f	typeref:typename:void
+ft_splice	containers_test/srcs/list/splice.cpp	/^void	ft_splice(T_List &caller, Ite position, T_List &x)$/;"	f	typeref:typename:void
+ft_splice	containers_test/srcs/list/splice.cpp	/^void	ft_splice(T_List &caller, Ite position, T_List &x, Ite first, Ite last)$/;"	f	typeref:typename:void
+ft_splice	containers_test/srcs/list/splice.cpp	/^void	ft_splice(T_List &caller, Ite position, T_List &x, Ite i)$/;"	f	typeref:typename:void
+ft_st	containers_test/srcs/multiset/more.cpp	/^typedef TESTED_NAMESPACE::multiset<T1, ft_more> ft_st;$/;"	t	typeref:typename:TESTED_NAMESPACE::multiset<T1,ft_more>	file:
+ft_st	containers_test/srcs/set/more.cpp	/^typedef TESTED_NAMESPACE::set<T1, ft_more> ft_st;$/;"	t	typeref:typename:TESTED_NAMESPACE::set<T1,ft_more>	file:
+ft_st_it	containers_test/srcs/multiset/more.cpp	/^typedef TESTED_NAMESPACE::multiset<T1, ft_more>::iterator ft_st_it;$/;"	t	typeref:typename:TESTED_NAMESPACE::multiset<T1,ft_more>::iterator	file:
+ft_st_it	containers_test/srcs/set/more.cpp	/^typedef TESTED_NAMESPACE::set<T1, ft_more>::iterator ft_st_it;$/;"	t	typeref:typename:TESTED_NAMESPACE::set<T1,ft_more>::iterator	file:
+ft_true	containers_test/srcs/list/unique.cpp	/^bool	ft_true(TESTED_TYPE first, TESTED_TYPE second)$/;"	f	typeref:typename:bool
+ft_unique	containers_test/srcs/list/unique.cpp	/^void	ft_unique(TESTED_NAMESPACE::list<TESTED_TYPE> &lst)$/;"	f	typeref:typename:void
+ft_unique	containers_test/srcs/list/unique.cpp	/^void	ft_unique(TESTED_NAMESPACE::list<TESTED_TYPE> &lst, Pred pred)$/;"	f	typeref:typename:void
+getData	main.cpp	/^	int getData() const$/;"	f	class:A	typeref:typename:int	file:
+getData	realtest.cpp	/^	int getData() const$/;"	f	class:A	typeref:typename:int	file:
+getData	test.cpp	/^	int getData() const$/;"	f	class:A	typeref:typename:int	file:
+getData	test_exception.cpp	/^	int getData() const$/;"	f	class:A	typeref:typename:int	file:
+getEmoji	containers_test/fct.sh	/^getEmoji () {$/;"	f
+getValue	containers_test/srcs/base.hpp	/^		value_type	getValue(void) const { return this->value; };$/;"	f	class:foo	typeref:typename:value_type
+getYN	containers_test/fct.sh	/^getYN () {$/;"	f
+get_allocator	vector.hpp	/^				allocator_type get_allocator() const { return m_alloc; };$/;"	f	class:ft::vector	typeref:typename:allocator_type
+i	containers_test/srcs/map/comp.cpp	/^static unsigned int i = 0;$/;"	v	typeref:typename:unsigned int	file:
+i	containers_test/srcs/multimap/comp.cpp	/^static unsigned int i = 0;$/;"	v	typeref:typename:unsigned int	file:
+i	containers_test/srcs/multiset/comp.cpp	/^static unsigned int i = 0;$/;"	v	typeref:typename:unsigned int	file:
+i	containers_test/srcs/set/comp.cpp	/^static unsigned int i = 0;$/;"	v	typeref:typename:unsigned int	file:
+inc	containers_test/srcs/base.hpp	/^T	inc(T it, int n)$/;"	f	typeref:typename:T
+insert	vector.hpp	/^					void insert(iterator position, InputIterator first, InputIterator last)$/;"	f	class:ft::vector	typeref:typename:void
+insert	vector.hpp	/^				iterator insert(iterator position, const T& x)$/;"	f	class:ft::vector	typeref:typename:iterator
+insert	vector.hpp	/^				void insert(iterator position, size_type n, const T& x)$/;"	f	class:ft::vector	typeref:typename:void
+isEq	containers_test/fct.sh	/^isEq () {$/;"	f
+is_empty	containers_test/srcs/deque/size.cpp	/^void	is_empty(TESTED_NAMESPACE::deque<TESTED_TYPE> const &deq)$/;"	f	typeref:typename:void
+is_empty	containers_test/srcs/list/size.cpp	/^void	is_empty(TESTED_NAMESPACE::list<TESTED_TYPE> const &lst)$/;"	f	typeref:typename:void
+is_empty	containers_test/srcs/map/empty.cpp	/^void	is_empty(T const &mp)$/;"	f	typeref:typename:void
+is_empty	containers_test/srcs/multimap/empty.cpp	/^void	is_empty(T const &mp)$/;"	f	typeref:typename:void
+is_empty	containers_test/srcs/multiset/empty.cpp	/^void	is_empty(T const &st)$/;"	f	typeref:typename:void
+is_empty	containers_test/srcs/set/empty.cpp	/^void	is_empty(T const &st)$/;"	f	typeref:typename:void
+is_empty	containers_test/srcs/vector/size.cpp	/^void	is_empty(TESTED_NAMESPACE::vector<TESTED_TYPE> const &vct)$/;"	f	typeref:typename:void
+is_near	containers_test/srcs/list/unique.cpp	/^struct is_near {$/;"	s	file:
+it	containers_test/srcs/map/find_count.cpp	/^TESTED_NAMESPACE::map<T1, T2>::iterator it = mp.end();$/;"	v	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::iterator
+it	containers_test/srcs/multimap/find_count.cpp	/^TESTED_NAMESPACE::multimap<T1, T2>::iterator it = mp.end();$/;"	v	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::iterator
+it	containers_test/srcs/multiset/find_count.cpp	/^TESTED_NAMESPACE::multiset<T1>::iterator it = st.end();$/;"	v	typeref:typename:TESTED_NAMESPACE::multiset<T1>::iterator
+it	containers_test/srcs/set/find_count.cpp	/^TESTED_NAMESPACE::set<T1>::iterator it = st.end();$/;"	v	typeref:typename:TESTED_NAMESPACE::set<T1>::iterator
+iter	containers_test/srcs/map/bounds.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/map/erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/map/erase2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/map/insert.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/map/insert2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/map/tricky_erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multimap/bounds.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multimap/erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multimap/erase2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multimap/insert.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multimap/insert2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multimap/tricky_erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multiset/bounds.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multiset/erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multiset/erase2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multiset/insert.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multiset/insert2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/multiset/tricky_erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/set/bounds.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/set/erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/set/erase2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/set/insert.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/set/insert2.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iter	containers_test/srcs/set/tricky_erase.cpp	/^static int iter = 0;$/;"	v	typeref:typename:int	file:
+iterator	containers_test/srcs/map/insert.cpp	/^typedef TESTED_NAMESPACE::map<T1, T2>::iterator iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::map<T1,T2>::iterator	file:
+iterator	containers_test/srcs/multimap/insert.cpp	/^typedef TESTED_NAMESPACE::multimap<T1, T2>::iterator iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>::iterator	file:
+iterator	containers_test/srcs/multiset/insert.cpp	/^typedef TESTED_NAMESPACE::multiset<T1>::iterator iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::multiset<T1>::iterator	file:
+iterator	containers_test/srcs/set/insert.cpp	/^typedef TESTED_NAMESPACE::set<T1>::iterator iterator;$/;"	t	typeref:typename:TESTED_NAMESPACE::set<T1>::iterator	file:
+iterator	vector.hpp	/^				typedef typename vector_base<T>::iterator iterator;$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::iterator
+iterator	vector_base.hpp	/^			typedef T* iterator;$/;"	t	class:ft::vector_base	typeref:typename:T *
+iterator_category	reverse_iterator.hpp	/^				typedef std::random_access_iterator_tag iterator_category;$/;"	t	class:ft::VectorIterator	typeref:typename:std::random_access_iterator_tag
+iterator_category	reverse_iterator.hpp	/^				typedef typename iterator_traits<T>::iterator_category iterator_category;$/;"	t	class:ft::reverse_iterator	typeref:typename:iterator_traits<T>::iterator_category
+iterator_category	reverse_iterator.hpp	/^			typedef std::random_access_iterator_tag iterator_category;$/;"	t	struct:ft::iterator_traits	typeref:typename:std::random_access_iterator_tag
+iterator_category	reverse_iterator.hpp	/^			typedef typename Iter::iterator_category iterator_category;$/;"	t	struct:ft::iterator_traits	typeref:typename:Iter::iterator_category
+iterator_traits	reverse_iterator.hpp	/^		struct iterator_traits$/;"	s	namespace:ft
+iterator_traits	reverse_iterator.hpp	/^		struct iterator_traits<T*>$/;"	s	namespace:ft
+iterator_traits	reverse_iterator.hpp	/^		struct iterator_traits<const T*>$/;"	s	namespace:ft
+iterator_type	reverse_iterator.hpp	/^				typedef T iterator_type;$/;"	t	class:ft::reverse_iterator	typeref:typename:T
+lexicographical_compare	algorithm.hpp	/^	bool lexicographical_compare(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2)$/;"	f	namespace:ft	typeref:typename:bool
+log	main.cpp	/^	static void log()$/;"	f	class:A	typeref:typename:void	file:
+log	realtest.cpp	/^	static void log()$/;"	f	class:A	typeref:typename:void	file:
+log	test.cpp	/^	static void log()$/;"	f	class:A	typeref:typename:void	file:
+log	test_exception.cpp	/^	static void log()$/;"	f	class:A	typeref:typename:void	file:
+m	containers_test/srcs/base.hpp	/^		void m(void) const { std::cout << "foo::m const called [" << this->value << "]" << std::endl; /;"	f	class:foo	typeref:typename:void
+m	containers_test/srcs/base.hpp	/^		void m(void) { std::cout << "foo::m called [" << this->value << "]" << std::endl; };$/;"	f	class:foo	typeref:typename:void
+m_alloc	vector_base.hpp	/^			allocator_type m_alloc;$/;"	m	class:ft::vector_base	typeref:typename:allocator_type
+m_base	reverse_iterator.hpp	/^				T m_base;$/;"	m	class:ft::reverse_iterator	typeref:typename:T
+m_capacity	vector_base.hpp	/^			size_type m_capacity;$/;"	m	class:ft::vector_base	typeref:typename:size_type
+m_current	reverse_iterator.hpp	/^				pointer m_current;$/;"	m	class:ft::VectorIterator	typeref:typename:pointer
+m_data	vector_base.hpp	/^			pointer m_data;$/;"	m	class:ft::vector_base	typeref:typename:pointer
+m_size	vector_base.hpp	/^			size_type m_size;$/;"	m	class:ft::vector_base	typeref:typename:size_type
+main	cla.cpp	/^int main()$/;"	f	typeref:typename:int
+main	containers_test/fct.sh	/^function main () {$/;"	f
+main	containers_test/srcs/deque/assign.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/at.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/at_const.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/bidirect_it.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/ite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/ite_eq_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/ite_n0.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/ite_n00.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/push_pop_back.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/push_pop_front.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/rite2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/rite_eq_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/size.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/deque/swap.cpp	/^int main ()$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/assign.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/front_back.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/huge_sort.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/ite_n0.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/ite_type.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/merge.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/push_pop.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/remove.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/remove_if.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/reverse.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/size.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/sort.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/splice.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/swap.cpp	/^int main ()$/;"	f	typeref:typename:int
+main	containers_test/srcs/list/unique.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/bounds.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/comp.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/empty.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/erase2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/find_count.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/ite_n0.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/ite_type.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/more.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/op_sqbr.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/swap.cpp	/^int main (void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/tricky_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/map/tricky_erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/bounds.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/comp.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/empty.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/erase2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/find_count.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/ite_n0.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/ite_type.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/more.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/op_sqbr.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/swap.cpp	/^int main (void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/tricky_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multimap/tricky_erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/bounds.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/comp.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/empty.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/erase2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/find_count.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/ite_n0a.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/ite_n0b.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/ite_type.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/more.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/op_sqbr.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/swap.cpp	/^int main (void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/tricky_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/multiset/tricky_erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/queue/back.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/queue/default.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/queue/default_copy.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/queue/list_copy.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/queue/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/queue/relational_ope_list.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/bounds.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/comp.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/empty.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/erase2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/find_count.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/ite_n0a.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/ite_n0b.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/ite_type.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/more.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/op_sqbr.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/swap.cpp	/^int main (void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/tricky_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/set/tricky_erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/stack/default.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/stack/default_copy.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/stack/list_copy.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/stack/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/stack/relational_ope_list.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/assign.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/at.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/at_const.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/bidirect_it.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/copy_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/erase.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/insert.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/insert2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/ite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/ite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/ite_eq_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/ite_n0.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/ite_n00.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/ite_n1.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/push_pop.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/relational_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/rev_ite_construct.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/rite.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/rite2.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/rite_arrow.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/rite_eq_ope.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/size.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	containers_test/srcs/vector/swap.cpp	/^int main ()$/;"	f	typeref:typename:int
+main	main.cpp	/^int main()$/;"	f	typeref:typename:int
+main	realtest.cpp	/^int		main(void)$/;"	f	typeref:typename:int
+main	test.cpp	/^int main()$/;"	f	typeref:typename:int
+main	test_exception.cpp	/^int main()$/;"	f	typeref:typename:int
+main	try.cpp	/^int main()$/;"	f	typeref:typename:int
+mainu	realtest.cpp	/^int mainu()$/;"	f	typeref:typename:int
+max_a	main.cpp	/^	const static int max_a = 35000; \/\/24$/;"	m	class:A	typeref:typename:const int	file:
+max_a	realtest.cpp	/^	const static int max_a = 5500; \/\/24$/;"	m	class:A	typeref:typename:const int	file:
+max_a	test.cpp	/^	const static int max_a = 35000; \/\/24$/;"	m	class:A	typeref:typename:const int	file:
+max_a	test_exception.cpp	/^	static int max_a; \/\/24$/;"	m	class:A	typeref:typename:int	file:
+max_a	test_exception.cpp	/^int A::max_a = 5500;$/;"	m	class:A	typeref:typename:int
+max_size	vector.hpp	/^				size_type max_size() const { return m_alloc.max_size(); }$/;"	f	class:ft::vector	typeref:typename:size_type
+mp	containers_test/srcs/map/find_count.cpp	/^TESTED_NAMESPACE::map<T1, T2> mp;$/;"	v	typeref:typename:TESTED_NAMESPACE::map<T1,T2>
+mp	containers_test/srcs/multimap/find_count.cpp	/^TESTED_NAMESPACE::multimap<T1, T2> mp;$/;"	v	typeref:typename:TESTED_NAMESPACE::multimap<T1,T2>
+operator !=	reverse_iterator.hpp	/^				bool operator!=(const reverse_iterator& i) const { return this->m_base != i.m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:bool
+operator !=	vector.hpp	/^		bool operator!=(const vector<T>& lhs, const vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:bool
+operator &	realtest.cpp	/^	A* operator&() { return NULL; }$/;"	f	class:A	typeref:typename:A *	file:
+operator &	test_exception.cpp	/^	A* operator&() { return NULL; }$/;"	f	class:A	typeref:typename:A *	file:
+operator ()	containers_test/srcs/list/merge.cpp	/^	bool	operator()(const TESTED_TYPE &first, const TESTED_TYPE &second)$/;"	f	struct:t_cmp	typeref:typename:bool	file:
+operator ()	containers_test/srcs/list/sort.cpp	/^	bool	operator()(const TESTED_TYPE &first, const TESTED_TYPE &second)$/;"	f	struct:case_insensitive	typeref:typename:bool	file:
+operator ()	containers_test/srcs/list/unique.cpp	/^	bool	operator()(TESTED_TYPE first, TESTED_TYPE second)$/;"	f	struct:is_near	typeref:typename:bool	file:
+operator ()	containers_test/srcs/map/more.cpp	/^	bool	operator()(const T1 &first, const T1 &second) const {$/;"	f	struct:ft_more	typeref:typename:bool	file:
+operator ()	containers_test/srcs/multimap/more.cpp	/^	bool	operator()(const T1 &first, const T1 &second) const {$/;"	f	struct:ft_more	typeref:typename:bool	file:
+operator ()	containers_test/srcs/multiset/more.cpp	/^	bool	operator()(const T1 &first, const T1 &second) const {$/;"	f	struct:ft_more	typeref:typename:bool	file:
+operator ()	containers_test/srcs/set/more.cpp	/^	bool	operator()(const T1 &first, const T1 &second) const {$/;"	f	struct:ft_more	typeref:typename:bool	file:
+operator *	reverse_iterator.hpp	/^				reference operator*() const { return *(m_base - 1); }$/;"	f	class:ft::reverse_iterator	typeref:typename:reference
+operator +	reverse_iterator.hpp	/^				VectorIterator& operator+(int a) { m_current += a; return *this; }$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator &
+operator +	reverse_iterator.hpp	/^				reverse_iterator operator+(difference_type a) { return m_base - a; }$/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator
+operator ++	reverse_iterator.hpp	/^				VectorIterator operator++(int)$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator
+operator ++	reverse_iterator.hpp	/^				VectorIterator& operator++() { ++m_current; return *this; }$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator &
+operator ++	reverse_iterator.hpp	/^				reverse_iterator& operator++() { --m_base; return *this; }$/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator &
+operator ++	reverse_iterator.hpp	/^				reverse_iterator<T> operator++(int)$/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator<T>
+operator -	reverse_iterator.hpp	/^				VectorIterator& operator-(int a) { m_current -= a; return *this; }$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator &
+operator -	reverse_iterator.hpp	/^				difference_type operator-(const VectorIterator& a) { return m_current - a.m_current; }$/;"	f	class:ft::VectorIterator	typeref:typename:difference_type
+operator -	reverse_iterator.hpp	/^				difference_type operator-(const reverse_iterator& a) { return a.m_base - m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:difference_type
+operator -	reverse_iterator.hpp	/^				reverse_iterator operator-(difference_type a) { return m_base + a; }$/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator
+operator --	reverse_iterator.hpp	/^				VectorIterator operator--(int)$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator
+operator --	reverse_iterator.hpp	/^				VectorIterator& operator--() { --m_current; return *this; }$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator &
+operator --	reverse_iterator.hpp	/^				reverse_iterator& operator--() { ++m_base; return *this; }$/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator &
+operator --	reverse_iterator.hpp	/^				reverse_iterator<T> operator--(int)$/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator<T>
+operator ->	reverse_iterator.hpp	/^				pointer operator->() const { return &(*(m_base - 1)); }$/;"	f	class:ft::reverse_iterator	typeref:typename:pointer
+operator <	main.cpp	/^bool operator<(const A& val) const { std::cout << " --------------- <<<<<< --------------- " << /;"	f	class:A	typeref:typename:bool	file:
+operator <	realtest.cpp	/^	bool operator<(const A& val) const { return *data < *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator <	reverse_iterator.hpp	/^				bool operator<(const reverse_iterator& i) const { return this->m_base > i.m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:bool
+operator <	test.cpp	/^bool operator<(const A& val) const { std::cout << " --------------- <<<<<< --------------- " << /;"	f	class:A	typeref:typename:bool	file:
+operator <	test_exception.cpp	/^	bool operator<(const A& val) const { return *data < *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator <	vector.hpp	/^		bool operator<(const vector<T>& lhs, const vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:bool
+operator <<	containers_test/srcs/base.hpp	/^std::ostream	&operator<<(std::ostream &o, foo<T> const &bar) {$/;"	f	typeref:typename:std::ostream &
+operator <<	main.cpp	/^std::ostream& operator<<(std::ostream& out, const A& val)$/;"	f	typeref:typename:std::ostream &
+operator <<	realtest.cpp	/^std::ostream& operator<<(std::ostream& out, const A& val)$/;"	f	typeref:typename:std::ostream &
+operator <<	test.cpp	/^std::ostream& operator<<(std::ostream& out, const A& val)$/;"	f	typeref:typename:std::ostream &
+operator <<	test_exception.cpp	/^std::ostream& operator<<(std::ostream& out, const A& val)$/;"	f	typeref:typename:std::ostream &
+operator <=	main.cpp	/^	bool operator<=(const A& val) const { return *data <= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator <=	realtest.cpp	/^	bool operator<=(const A& val) const { return *data <= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator <=	reverse_iterator.hpp	/^				bool operator<=(const reverse_iterator& i) const { return this->m_base >= i.m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:bool
+operator <=	test.cpp	/^	bool operator<=(const A& val) const { return *data <= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator <=	test_exception.cpp	/^	bool operator<=(const A& val) const { return *data <= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator <=	vector.hpp	/^		bool operator<=(const vector<T>& lhs, const vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:bool
+operator =	containers_test/srcs/base.hpp	/^		foo &operator=(foo const &src) {$/;"	f	class:foo	typeref:typename:foo &
+operator =	containers_test/srcs/base.hpp	/^		foo &operator=(value_type src) { this->value = src; return *this; };$/;"	f	class:foo	typeref:typename:foo &
+operator =	main.cpp	/^	A& operator=(const A& val)$/;"	f	class:A	typeref:typename:A &	file:
+operator =	realtest.cpp	/^	A& operator=(const A& val)$/;"	f	class:A	typeref:typename:A &	file:
+operator =	reverse_iterator.hpp	/^				VectorIterator& operator=(const VectorIterator& ent) { m_current = ent.m_current; }$/;"	f	class:ft::VectorIterator	typeref:typename:VectorIterator &
+operator =	reverse_iterator.hpp	/^				reverse_iterator& operator=(const reverse_iterator& ent) { m_base = ent.m_base; return *this/;"	f	class:ft::reverse_iterator	typeref:typename:reverse_iterator &
+operator =	test.cpp	/^	A& operator=(const A& val)$/;"	f	class:A	typeref:typename:A &	file:
+operator =	test_exception.cpp	/^	A& operator=(const A& val)$/;"	f	class:A	typeref:typename:A &	file:
+operator =	vector.hpp	/^				vector<T>& operator=(const vector<T>& x)$/;"	f	class:ft::vector	typeref:typename:vector<T> &
+operator ==	main.cpp	/^	bool operator==(const A& val) const { return *data == *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator ==	realtest.cpp	/^	bool operator==(const A& val) const { return *data == *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator ==	reverse_iterator.hpp	/^				bool operator==(const reverse_iterator& i) const { return this->m_base == i.m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:bool
+operator ==	test.cpp	/^	bool operator==(const A& val) const { return *data == *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator ==	test_exception.cpp	/^	bool operator==(const A& val) const { return *data == *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator ==	vector.hpp	/^		bool operator==(const vector<T>& lhs, const vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:bool
+operator >	main.cpp	/^	bool operator>(const A& val) const { return *data > *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >	realtest.cpp	/^	bool operator>(const A& val) const { return *data > *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >	reverse_iterator.hpp	/^				bool operator>(const reverse_iterator& i) const { return this->m_base < i.m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:bool
+operator >	test.cpp	/^	bool operator>(const A& val) const { return *data > *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >	test_exception.cpp	/^	bool operator>(const A& val) const { return *data > *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >	vector.hpp	/^		bool operator>(const vector<T>& lhs, const vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:bool
+operator >=	main.cpp	/^	bool operator>=(const A& val) const { return *data >= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >=	realtest.cpp	/^	bool operator>=(const A& val) const { return *data >= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >=	reverse_iterator.hpp	/^				bool operator>=(const reverse_iterator& i) const { return this->m_base <= i.m_base; }$/;"	f	class:ft::reverse_iterator	typeref:typename:bool
+operator >=	test.cpp	/^	bool operator>=(const A& val) const { return *data >= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >=	test_exception.cpp	/^	bool operator>=(const A& val) const { return *data >= *(val.data); }$/;"	f	class:A	typeref:typename:bool	file:
+operator >=	vector.hpp	/^		bool operator>=(const vector<T>& lhs, const vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:bool
+operator []	reverse_iterator.hpp	/^				reference operator[](difference_type n) const { return *(m_base - 1 - n); };$/;"	f	class:ft::reverse_iterator	typeref:typename:reference
+operator []	vector.hpp	/^				const_reference operator[](size_type n) const { return m_data[n]; };$/;"	f	class:ft::vector	typeref:typename:const_reference
+operator []	vector.hpp	/^				reference operator[](size_type n) { return m_data[n]; };$/;"	f	class:ft::vector	typeref:typename:reference
+operator value_type	containers_test/srcs/base.hpp	/^		operator value_type(void) const {$/;"	f	class:foo
+pheader	containers_test/fct.sh	/^function pheader () {$/;"	f
+pointer	reverse_iterator.hpp	/^				typedef T* pointer;$/;"	t	class:ft::VectorIterator	typeref:typename:T *
+pointer	reverse_iterator.hpp	/^				typedef typename iterator_traits<T>::pointer pointer;$/;"	t	class:ft::reverse_iterator	typeref:typename:iterator_traits<T>::pointer
+pointer	reverse_iterator.hpp	/^			typedef T* pointer;$/;"	t	struct:ft::iterator_traits	typeref:typename:T *
+pointer	reverse_iterator.hpp	/^			typedef const T* pointer;$/;"	t	struct:ft::iterator_traits	typeref:typename:const T *
+pointer	reverse_iterator.hpp	/^			typedef typename Iter::pointer pointer;$/;"	t	struct:ft::iterator_traits	typeref:typename:Iter::pointer
+pointer	vector.hpp	/^				typedef typename vector_base<T>::pointer pointer;\/\/ See 23.1$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::pointer
+pointer	vector_base.hpp	/^			typedef typename allocator_type::pointer pointer;$/;"	t	class:ft::vector_base	typeref:typename:allocator_type::pointer
+pop_back	vector.hpp	/^				void pop_back()$/;"	f	class:ft::vector	typeref:typename:void
+prepost_incdec	containers_test/srcs/deque/ite.cpp	/^void	prepost_incdec(TESTED_NAMESPACE::deque<TESTED_TYPE> &deq)$/;"	f	typeref:typename:void
+prepost_incdec	containers_test/srcs/vector/ite.cpp	/^void	prepost_incdec(TESTED_NAMESPACE::vector<TESTED_TYPE> &vct)$/;"	f	typeref:typename:void
+printPair	containers_test/srcs/map/common.hpp	/^std::string	printPair(const T &iterator, bool nl = true, std::ostream &o = std::cout)$/;"	f	typeref:typename:std::string
+printPair	containers_test/srcs/multimap/common.hpp	/^std::string	printPair(const T &iterator, bool nl = true, std::ostream &o = std::cout)$/;"	f	typeref:typename:std::string
+printPair	containers_test/srcs/multiset/common.hpp	/^std::string	printPair(const T &iterator, bool nl = true, std::ostream &o = std::cout)$/;"	f	typeref:typename:std::string
+printPair	containers_test/srcs/set/common.hpp	/^std::string	printPair(const T &iterator, bool nl = true, std::ostream &o = std::cout)$/;"	f	typeref:typename:std::string
+printRes	containers_test/fct.sh	/^printRes () {$/;"	f
+printReverse	containers_test/srcs/list/common.hpp	/^void	printReverse(TESTED_NAMESPACE::list<T> &lst)$/;"	f	typeref:typename:void
+printReverse	containers_test/srcs/map/common.hpp	/^void	printReverse(TESTED_NAMESPACE::map<T1, T2> &mp)$/;"	f	typeref:typename:void
+printReverse	containers_test/srcs/multimap/common.hpp	/^void	printReverse(TESTED_NAMESPACE::multimap<T1, T2> &mp)$/;"	f	typeref:typename:void
+printReverse	containers_test/srcs/multiset/common.hpp	/^void	printReverse(TESTED_NAMESPACE::multiset<T1> &st)$/;"	f	typeref:typename:void
+printReverse	containers_test/srcs/set/common.hpp	/^void	printReverse(TESTED_NAMESPACE::set<T1> &st)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/deque/common.hpp	/^void	printSize(TESTED_NAMESPACE::deque<T> const &deq, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/list/common.hpp	/^void	printSize(TESTED_NAMESPACE::list<T> const &lst, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/map/common.hpp	/^void	printSize(T_MAP const &mp, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/multimap/common.hpp	/^void	printSize(T_MAP const &mp, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/multiset/common.hpp	/^void	printSize(T_SET const &st, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/queue/common.hpp	/^void	printSize(T_QUEUE &qu_, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/set/common.hpp	/^void	printSize(T_SET const &st, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/stack/common.hpp	/^void	printSize(T_STACK &stck, bool print_content = 1)$/;"	f	typeref:typename:void
+printSize	containers_test/srcs/vector/common.hpp	/^void	printSize(TESTED_NAMESPACE::vector<T> const &vct, bool print_content = true)$/;"	f	typeref:typename:void
+printVector	realtest.cpp	/^void printVector(const T& a)$/;"	f	typeref:typename:void
+printVector	test_exception.cpp	/^void printVector(const T& a)$/;"	f	typeref:typename:void
+push_back	vector.hpp	/^				void push_back(const T& x)$/;"	f	class:ft::vector	typeref:typename:void
+rbegin	vector.hpp	/^				const_reverse_iterator rbegin() const { return m_data + m_size; };$/;"	f	class:ft::vector	typeref:typename:const_reverse_iterator
+rbegin	vector.hpp	/^				reverse_iterator rbegin() { return m_data + m_size; };$/;"	f	class:ft::vector	typeref:typename:reverse_iterator
+reference	reverse_iterator.hpp	/^				typedef T& reference;$/;"	t	class:ft::VectorIterator	typeref:typename:T &
+reference	reverse_iterator.hpp	/^				typedef typename iterator_traits<T>::reference reference;$/;"	t	class:ft::reverse_iterator	typeref:typename:iterator_traits<T>::reference
+reference	reverse_iterator.hpp	/^			typedef T& reference;$/;"	t	struct:ft::iterator_traits	typeref:typename:T &
+reference	reverse_iterator.hpp	/^			typedef const T& reference;$/;"	t	struct:ft::iterator_traits	typeref:typename:const T &
+reference	reverse_iterator.hpp	/^			typedef typename Iter::reference reference;$/;"	t	struct:ft::iterator_traits	typeref:typename:Iter::reference
+reference	vector.hpp	/^				typedef typename vector_base<T>::reference reference;$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::reference
+reference	vector_base.hpp	/^			typedef typename allocator_type::reference reference;$/;"	t	class:ft::vector_base	typeref:typename:allocator_type::reference
+rend	vector.hpp	/^				const_reverse_iterator rend() const { return m_data; };$/;"	f	class:ft::vector	typeref:typename:const_reverse_iterator
+rend	vector.hpp	/^				reverse_iterator rend() { return m_data; };$/;"	f	class:ft::vector	typeref:typename:reverse_iterator
+reserve	vector.hpp	/^				void reserve(size_type n)$/;"	f	class:ft::vector	typeref:typename:void
+resize	vector.hpp	/^				void resize(size_type sz, T c = T())$/;"	f	class:ft::vector	typeref:typename:void
+reverse_iterator	reverse_iterator.hpp	/^				reverse_iterator(const T& ent) : m_base(ent) {}$/;"	f	class:ft::reverse_iterator
+reverse_iterator	reverse_iterator.hpp	/^				reverse_iterator(const reverse_iterator<T>& ent) : m_base(ent.m_base) {}$/;"	f	class:ft::reverse_iterator
+reverse_iterator	reverse_iterator.hpp	/^		class reverse_iterator$/;"	c	namespace:ft
+reverse_iterator	vector.hpp	/^				typedef typename vector_base<T>::reverse_iterator reverse_iterator;\/\/ See 23.1$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::reverse_iterator
+reverse_iterator	vector_base.hpp	/^			typedef ft::reverse_iterator<iterator> reverse_iterator;$/;"	t	class:ft::vector_base	typeref:typename:ft::reverse_iterator<iterator>
+same_integral_part	containers_test/srcs/list/unique.cpp	/^bool	same_integral_part(TESTED_TYPE first, TESTED_TYPE second)$/;"	f	typeref:typename:bool
+size	vector.hpp	/^				size_type size() const { return m_size; }$/;"	f	class:ft::vector	typeref:typename:size_type
+size_type	vector.hpp	/^				typedef typename vector_base<T>::size_type size_type;$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::size_type
+size_type	vector_base.hpp	/^			typedef typename allocator_type::size_type size_type; \/\/ See 23.1$/;"	t	class:ft::vector_base	typeref:typename:allocator_type::size_type
+spliced	containers_test/srcs/list/splice.cpp	/^unsigned int spliced = 0;$/;"	v	typeref:typename:unsigned int
+st	containers_test/srcs/multiset/find_count.cpp	/^TESTED_NAMESPACE::multiset<T1> st;$/;"	v	typeref:typename:TESTED_NAMESPACE::multiset<T1>
+st	containers_test/srcs/set/find_count.cpp	/^TESTED_NAMESPACE::set<T1> st;$/;"	v	typeref:typename:TESTED_NAMESPACE::set<T1>
+swap	vector.hpp	/^				void swap(vector<T>& ent)$/;"	f	class:ft::vector	typeref:typename:void
+swap	vector.hpp	/^			void swap(vector<T>& lhs, vector<T>& rhs)$/;"	f	namespace:ft	typeref:typename:void
+swap	vector_base.hpp	/^		void swap(vector_base<T>& lhs, vector_base<T>& rhs)$/;"	f	namespace:ft	typeref:typename:void
+switchVerbose	containers_test/srcs/base.hpp	/^		void		switchVerbose(void) { this->_verbose = !(this->_verbose); };$/;"	f	class:foo	typeref:typename:void
+t_cmp	containers_test/srcs/list/merge.cpp	/^struct t_cmp {$/;"	s	file:
+t_queue_	containers_test/srcs/queue/back.cpp	/^#define t_queue_ /;"	d	file:
+t_queue_	containers_test/srcs/queue/default.cpp	/^#define t_queue_ /;"	d	file:
+t_queue_	containers_test/srcs/queue/default_copy.cpp	/^#define t_queue_ /;"	d	file:
+t_queue_	containers_test/srcs/queue/list_copy.cpp	/^#define t_queue_ /;"	d	file:
+t_queue_	containers_test/srcs/queue/relational_ope.cpp	/^#define t_queue_ /;"	d	file:
+t_queue_	containers_test/srcs/queue/relational_ope_list.cpp	/^#define t_queue_ /;"	d	file:
+t_stack_	containers_test/srcs/stack/default.cpp	/^#define t_stack_ /;"	d	file:
+t_stack_	containers_test/srcs/stack/default_copy.cpp	/^#define t_stack_ /;"	d	file:
+t_stack_	containers_test/srcs/stack/list_copy.cpp	/^#define t_stack_ /;"	d	file:
+t_stack_	containers_test/srcs/stack/relational_ope.cpp	/^#define t_stack_ /;"	d	file:
+t_stack_	containers_test/srcs/stack/relational_ope_list.cpp	/^#define t_stack_ /;"	d	file:
+value	containers_test/srcs/base.hpp	/^		value_type	value;$/;"	m	class:foo	typeref:typename:value_type
+value_type	containers_test/srcs/base.hpp	/^		typedef T	value_type;$/;"	t	class:foo	typeref:typename:T
+value_type	reverse_iterator.hpp	/^				typedef T value_type;$/;"	t	class:ft::VectorIterator	typeref:typename:T
+value_type	reverse_iterator.hpp	/^				typedef typename iterator_traits<T>::value_type value_type;$/;"	t	class:ft::reverse_iterator	typeref:typename:iterator_traits<T>::value_type
+value_type	reverse_iterator.hpp	/^			typedef	T value_type;$/;"	t	struct:ft::iterator_traits	typeref:typename:T
+value_type	reverse_iterator.hpp	/^			typedef	const T value_type;$/;"	t	struct:ft::iterator_traits	typeref:typename:const T
+value_type	reverse_iterator.hpp	/^			typedef	typename Iter::value_type value_type;$/;"	t	struct:ft::iterator_traits	typeref:typename:Iter::value_type
+value_type	vector.hpp	/^				typedef typename vector_base<T>::value_type value_type;\/\/ See 23.1$/;"	t	class:ft::vector	typeref:typename:vector_base<T>::value_type
+value_type	vector_base.hpp	/^			typedef T value_type;$/;"	t	class:ft::vector_base	typeref:typename:T
+vector	vector.hpp	/^					vector(InputIterator first, InputIterator last) : vector_base<T>(std::distance(first, last)/;"	f	class:ft::vector
+vector	vector.hpp	/^				explicit vector() : vector_base<T>() {}$/;"	f	class:ft::vector
+vector	vector.hpp	/^				explicit vector(size_type n, const T& value = T()) : vector_base<T>(n)$/;"	f	class:ft::vector
+vector	vector.hpp	/^				vector(const vector<T>& x) : vector_base<T>(x.size())$/;"	f	class:ft::vector
+vector	vector.hpp	/^		class vector : protected vector_base<T> {$/;"	c	namespace:ft
+vector_base	vector_base.hpp	/^			vector_base() : m_alloc(), m_data(), m_size(), m_capacity() {}$/;"	f	class:ft::vector_base
+vector_base	vector_base.hpp	/^			vector_base(size_type n) : m_alloc(), m_data(), m_size(), m_capacity()$/;"	f	class:ft::vector_base
+vector_base	vector_base.hpp	/^		class vector_base$/;"	c	namespace:ft
+~A	main.cpp	/^	~A()$/;"	f	class:A	file:
+~A	realtest.cpp	/^	~A()$/;"	f	class:A	file:
+~A	test.cpp	/^	~A()$/;"	f	class:A	file:
+~A	test_exception.cpp	/^	~A()$/;"	f	class:A	file:
+~foo	containers_test/srcs/base.hpp	/^		~foo(void) { if (this->_verbose) std::cout << "~foo::foo()" << std::endl; };$/;"	f	class:foo
+~reverse_iterator	reverse_iterator.hpp	/^				~reverse_iterator() {}$/;"	f	class:ft::reverse_iterator
+~vector	vector.hpp	/^				~vector()$/;"	f	class:ft::vector
+~vector_base	vector_base.hpp	/^			~vector_base()$/;"	f	class:ft::vector_base

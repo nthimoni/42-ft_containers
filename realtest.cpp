@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 16:00:51 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/24 02:15:32 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/02/28 23:22:34 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@
 
 #include <iostream>
 #include <algorithm>
+
 
 class A
 {
@@ -57,7 +58,7 @@ class A
 	{
 		return *data;
 	}
-	A* operator&() {return NULL;}
+	A* operator&() { return NULL; }
 	A& operator=(const A& val)
 	{
 		if (a++ > max_a)
@@ -491,4 +492,5 @@ int main()
 	catch (std::exception& e) {
 		std::cout << "exception : " << e.what() << std::endl;
 	}
+	return 0;
 }

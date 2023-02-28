@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 18:18:47 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/24 02:17:15 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/02/28 22:58:20 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <iostream>
 # include <exception>
 # include <stdexcept>
+# include <algorithm>
 # include "reverse_iterator.hpp"
 # include "algorithm.hpp"
 # include "vector_base.hpp"
@@ -143,43 +144,25 @@ namespace ft
 				size_type max_size() const { return m_alloc.max_size(); }
 				void resize(size_type sz, T c = T())
 				{
-					// HEEEERRREEEEE
-					if (sz > m_capacity)
-					{
-						vector_base<T> tmp = m_alloc.allocate(sz);
-						std::uninitialized_copy(this->begin(), this->end(), newStorage);
-						std::uninitialized_fill_n(newStorage + m_size, sz - m_size, c);
-						this->clear();
-						m_alloc.deallocate(m_data, m_capacity);
-						m_data = newStorage;
-						m_capacity = sz;
-						m_size = sz;
-					}
-					else if (sz < m_size)
-					{
-						for (; m_size > sz; m_size--)
-							m_alloc.destroy(m_data + m_size - 1);
-					}
-					else
-					{
-						for (; m_size < sz; m_size++)
-							m_alloc.construct(m_data + m_size, c);
-					}
+					this->reserve(sz);
+					size_type startDelete = sz < m_size ? sz : m_size;
+					this->destroy_elements(this->begin() + startDelete, this->end());
+					size_type endFill = sz > m_size ? (sz - m_size) : 0;
+					std::uninitialized_fill_n(this->end(), endFill, c);
+					m_size = sz;
 				}
+
 				size_type capacity() const { return m_capacity; }
 				bool empty() const { return m_size == 0; }
 				void reserve(size_type n)
 				{
-					if (n > m_alloc.max_size())
-						throw std::length_error("Call to ft::vector::resize with (size > max_size)");
 					if (n <= m_capacity)
 						return ;
-					pointer tmp = m_alloc.allocate(n);
-					std::uninitialized_copy(m_data, m_data + m_size, tmp);
-					for (iterator it = this->begin(); it != this->end(); it++)
-						m_alloc.destroy(it);
-					m_alloc.deallocate(m_data, m_capacity);
-					m_data = tmp;
+					ft::vector_base<T> tmp(n);
+					tmp.m_size = m_size;
+					std::uninitialized_copy(m_data, m_data + m_size, tmp.m_data);
+					this->destroy_elements(this->begin(), this->end());
+					ft::swap(*this, tmp);
 					m_capacity = n;
 				}
 
@@ -206,28 +189,8 @@ namespace ft
 				// 23.2.4.3 modifiers:
 				void push_back(const T& x)
 				{
-					if (m_capacity == 0)
-					{
-						if (m_data)
-							m_alloc.deallocate(m_data, m_capacity);
-						m_data = m_alloc.allocate(++m_capacity);
-					}
-					else if (m_capacity == m_size)
-					{
-						pointer newStorage = m_alloc.allocate(m_capacity * 2);
-
-						try {
-						std::uninitialized_copy(this->begin(), this->end(), newStorage);
-						} catch (...) {
-							m_alloc.deallocate(newStorage, m_capacity * 2);
-							throw;
-						}
-						for (unsigned i = 0; i < m_size; i++)
-							m_alloc.destroy(m_data + i);
-						m_alloc.deallocate(m_data, m_capacity);
-						m_capacity *= 2;
-						m_data = newStorage;
-					}
+					if (m_capacity == m_size)
+						this->reserve(m_capacity ? m_capacity * 2 : 1);
 					m_alloc.construct(m_data + m_size, x);
 					m_size++;
 				}
@@ -243,73 +206,64 @@ namespace ft
 					this->insert(position, 1lu, x);
 					return position;
 				}	
-
 				void insert(iterator position, size_type n, const T& x)
 				{
-					difference_type before = std::distance(m_data, position);
 					if (m_capacity < (m_size + n))
 					{
-						size_type newCapa = m_capacity * 2 > m_size + n ? m_capacity * 2 : m_size + n;
-						pointer tmp = m_alloc.allocate(newCapa);	
-						try {
-						std::uninitialized_copy(this->begin(), position, tmp);
-						std::uninitialized_fill_n(tmp + before, n, x);
-						std::uninitialized_copy(position, this->end(), tmp + before + n);
-						} catch (...) {
-							m_alloc.deallocate(tmp, newCapa);
-							throw;
-						}
-						for (iterator it = this->begin(); it != this->end(); it++)
-							m_alloc.destroy(it);
-						m_alloc.deallocate(m_data, m_capacity);
-						m_data = tmp;
-						m_capacity = newCapa;
+						difference_type before = position - m_data;
+						ft::vector<T> tmp;
+						tmp.reserve(m_capacity * 2 > m_size + n ? m_capacity * 2 : m_size + n);
+						std::uninitialized_copy(this->begin(), position, tmp.m_data);
+						tmp.m_size = position - this->begin();
+						std::uninitialized_fill_n(tmp.m_data + before, n, x);
+						tmp.m_size += n;
+						std::uninitialized_copy(position, this->end(), tmp.m_data + before + n);
+						tmp.m_size += this->end() - position;
+						ft::swap(*this, tmp);
 					}
 					else
 					{
-						iterator toCopy = this->end() - n - position > 0 ? this->end() - n : position;
-						std::uninitialized_copy(toCopy, this->end(), toCopy + n);
-						std::copy_backward(position, toCopy, n + toCopy);
-						iterator toAssign = position + n > this->end() ? this->end() : (position + n);
-						std::fill(position, toAssign, x);
+						iterator oldEnd = this->end();
+						iterator toCopy = oldEnd- n - position > 0 ? oldEnd - n : position;
+						iterator toAssign = position + n > oldEnd ? oldEnd : (position + n);
 						std::uninitialized_fill(toAssign, position + n, x);
+						m_size += (position + n) - toAssign;
+						std::uninitialized_copy(toCopy, oldEnd, toCopy + n);
+						m_size += oldEnd - toCopy;
+						std::copy_backward(position, toCopy, n + toCopy);
+						std::fill(position, toAssign, x);
 					}
-					m_size += n;
 				}
 
 				template <class InputIterator>
 					void insert(iterator position, InputIterator first, InputIterator last)
 					{
-						difference_type before = std::distance(m_data, position);
+						difference_type before = position - m_data;
 						difference_type n = std::distance(first, last);
 						if (m_capacity < (m_size + n))
 						{
-							size_type newCapa = m_capacity * 2 > m_size + n ? m_capacity * 2 : m_size + n;
-							pointer tmp = m_alloc.allocate(newCapa);	
-						try {
-							std::uninitialized_copy(this->begin(), position, tmp);
-							std::uninitialized_copy(first, last, tmp + before);
-							std::uninitialized_copy(position, this->end(), tmp + before + n);
-						} catch (...) {
-							m_alloc.deallocate(tmp, newCapa);
-							throw;
-						}
-							for (iterator it = this->begin(); it != this->end(); it++)
-								m_alloc.destroy(it);
-							m_alloc.deallocate(m_data, m_capacity);
-							m_data = tmp;
-							m_capacity = newCapa;
+							ft::vector<T> tmp;
+							tmp.reserve(m_capacity * 2 > m_size + n ? m_capacity * 2 : m_size + n);
+							std::uninitialized_copy(this->begin(), position, tmp.m_data);
+							tmp.m_size = position - this->begin();
+							std::uninitialized_copy(first, last, tmp.m_data + before);
+							tmp.m_size += n;
+							std::uninitialized_copy(position, this->end(), tmp.m_data + before + n);
+							tmp.m_size += this->end() - position;
+							ft::swap(*this, tmp);
 						}
 						else
 						{
-							iterator toCopy = this->end() - n - position > 0 ? this->end() - n : position;
-							std::uninitialized_copy(toCopy, this->end(), toCopy + n);
-							std::copy_backward(position, toCopy, n + toCopy);
+							iterator oldEnd = this->end();
+							iterator toCopy = oldEnd - n - position > 0 ? oldEnd - n : position;
 							size_type initCopy = static_cast<difference_type>(m_size) - before > n ? n : m_size - before;
-							std::copy(first, first + initCopy, position);
 							std::uninitialized_copy(first + initCopy, last, position + initCopy);
+							m_size += last - (first + initCopy);
+							std::uninitialized_copy(toCopy, oldEnd, toCopy + n);
+							m_size += oldEnd - toCopy;
+							std::copy_backward(position, toCopy, n + toCopy);
+							std::copy(first, first + initCopy, position);
 						}
-						m_size += n;
 					}
 				iterator erase(iterator position)
 				{
@@ -317,11 +271,9 @@ namespace ft
 				}
 				iterator erase(iterator first, iterator last)
 				{
-					difference_type len = std::distance(first, last);
+					difference_type len = last - first;
 
-					for (iterator it = std::copy(last, this->end(), first); it != this->end(); it++)
-						m_alloc.destroy(it);
-
+					this->destroy_elements(std::copy(last, this->end(), first), this->end());
 					m_size -= len;
 					return first;
 				}
