@@ -1,0 +1,47 @@
+
+coucou.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <_Z5mainuv>:
+   0:	f3 0f 1e fa          	endbr64 
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	c7 45 fc 05 00 00 00 	movl   $0x5,-0x4(%rbp)
+   f:	83 45 fc 01          	addl   $0x1,-0x4(%rbp)
+  13:	90                   	nop
+  14:	5d                   	pop    %rbp
+  15:	c3                   	ret    
+
+0000000000000016 <_Z41__static_initialization_and_destruction_0ii>:
+  16:	f3 0f 1e fa          	endbr64 
+  1a:	55                   	push   %rbp
+  1b:	48 89 e5             	mov    %rsp,%rbp
+  1e:	48 83 ec 10          	sub    $0x10,%rsp
+  22:	89 7d fc             	mov    %edi,-0x4(%rbp)
+  25:	89 75 f8             	mov    %esi,-0x8(%rbp)
+  28:	83 7d fc 01          	cmpl   $0x1,-0x4(%rbp)
+  2c:	75 32                	jne    60 <_Z41__static_initialization_and_destruction_0ii+0x4a>
+  2e:	81 7d f8 ff ff 00 00 	cmpl   $0xffff,-0x8(%rbp)
+  35:	75 29                	jne    60 <_Z41__static_initialization_and_destruction_0ii+0x4a>
+  37:	48 8d 3d 00 00 00 00 	lea    0x0(%rip),%rdi        # 3e <_Z41__static_initialization_and_destruction_0ii+0x28>
+  3e:	e8 00 00 00 00       	call   43 <_Z41__static_initialization_and_destruction_0ii+0x2d>
+  43:	48 8d 15 00 00 00 00 	lea    0x0(%rip),%rdx        # 4a <_Z41__static_initialization_and_destruction_0ii+0x34>
+  4a:	48 8d 35 00 00 00 00 	lea    0x0(%rip),%rsi        # 51 <_Z41__static_initialization_and_destruction_0ii+0x3b>
+  51:	48 8b 05 00 00 00 00 	mov    0x0(%rip),%rax        # 58 <_Z41__static_initialization_and_destruction_0ii+0x42>
+  58:	48 89 c7             	mov    %rax,%rdi
+  5b:	e8 00 00 00 00       	call   60 <_Z41__static_initialization_and_destruction_0ii+0x4a>
+  60:	90                   	nop
+  61:	c9                   	leave  
+  62:	c3                   	ret    
+
+0000000000000063 <_GLOBAL__sub_I__Z5mainuv>:
+  63:	f3 0f 1e fa          	endbr64 
+  67:	55                   	push   %rbp
+  68:	48 89 e5             	mov    %rsp,%rbp
+  6b:	be ff ff 00 00       	mov    $0xffff,%esi
+  70:	bf 01 00 00 00       	mov    $0x1,%edi
+  75:	e8 9c ff ff ff       	call   16 <_Z41__static_initialization_and_destruction_0ii>
+  7a:	5d                   	pop    %rbp
+  7b:	c3                   	ret    

@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 16:00:51 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/28 23:22:34 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/03/03 22:08:51 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,6 +91,12 @@ void printVector(const T& a)
 	std::cout << "size : " << a.size() << " - empty : " << a.empty() << std::endl;
 	std::cout << "{ ";
 	for (unsigned int i = 0; i < a.size(); i++) std::cout << a[i] << " ";
+	std::cout << "}" << std::endl;;
+	std::cout << "{ ";
+	for (NS::vector<A>::const_iterator i = a.begin(); i != a.end(); i++) std::cout << *i << " ";
+	std::cout << "}" << std::endl;;
+	std::cout << "{ ";
+	for (NS::vector<A>::const_reverse_iterator i = a.rbegin(); i != a.rend(); i++) std::cout << *i << " ";
 	std::cout << "}" << std::endl;;
 	std::cout << "----------------------------------------" << std::endl;
 }

@@ -6,7 +6,7 @@
 /*   By: nthimoni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/31 18:18:47 by nthimoni          #+#    #+#             */
-/*   Updated: 2023/02/28 22:58:20 by nthimoni         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:23:55 by nthimoni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -224,7 +224,7 @@ namespace ft
 					else
 					{
 						iterator oldEnd = this->end();
-						iterator toCopy = oldEnd- n - position > 0 ? oldEnd - n : position;
+						iterator toCopy = oldEnd - n - position > 0 ? oldEnd - n : position;
 						iterator toAssign = position + n > oldEnd ? oldEnd : (position + n);
 						std::uninitialized_fill(toAssign, position + n, x);
 						m_size += (position + n) - toAssign;
